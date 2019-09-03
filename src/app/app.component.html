@@ -3,11 +3,11 @@
 <button (click)="onClick()">Button!</button>
 
 <div *ngFor="let dByschool of disciplinesBySchoolAndLevel | keyvalue">
-    {{dByschool.key}}
+    <h1>{{dByschool.key}}</h1>
     <div *ngFor="let dBylevel of dByschool.value | keyvalue" style="padding-left: 16px">
-      {{dBylevel.key}}
+      <h2>{{dBylevel.key}}</h2>
       <div *ngFor="let d of dBylevel.value | keyvalue" style="padding-left: 32px">
-        <div>{{d.value.name}}</div>
+        <div style="font-weight: bold">{{d.value.name}}</div>
         <div>{{d.value.sp}} SP</div>
         <div>{{d.value.description}}</div>
         <br>
