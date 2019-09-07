@@ -203,14 +203,16 @@ export class Data {
       level: 1,
       name: 'Imbued Fear',
       sp: 0,
-      description: 'Exhaust: When making an attack, the attack gains +2 Physical Damage and "FU: Inflict Darkness.Force X + Difference Hit where X is 6 plus the level of your highest Cruor Discipline"'
+      description:
+        'Exhaust: When making an attack, the attack gains +2 Physical Damage and "FU: Inflict Darkness.Force X + Difference Hit where X is 6 plus the level of your highest Cruor Discipline"'
     },
     {
       school: 'Cruor',
       level: 1,
       name: 'Gore Shot',
       sp: 0,
-      description: 'Exhaust: Cast a Spell 6. Deal 2 Magic Damage. You may take 2 Irreducible Damage to deal additional Magic Damage equal to 2x your highest level Cruor Discipline.'
+      description:
+        'Exhaust: Cast a Spell 6. Deal 2 Magic Damage. You may take 2 Irreducible Damage to deal additional Magic Damage equal to 2x your highest level Cruor Discipline.'
     },
     {
       school: 'Cruor',
@@ -238,14 +240,16 @@ export class Data {
       level: 2,
       name: 'Bring the Shadows',
       sp: 2,
-      description: 'Make a move action. During this movement, you do not provoke Break Attacks and you may move through opponents with no penalty. You may not increase this movement by spending additional SP. After moving, cast a Spell 6 against each figure moved through, ignoring SOI and Line of Sight. Deal your Spellcasting Die worth of Magic Damage and inflict Darkness.'
+      description:
+        'Make a move action. During this movement, you do not provoke Break Attacks and you may move through opponents with no penalty. You may not increase this movement by spending additional SP. After moving, cast a Spell 6 against each figure moved through, ignoring SOI and Line of Sight. Deal your Spellcasting Die worth of Magic Damage and inflict Darkness.'
     },
     {
       school: 'Cruor',
       level: 2,
       name: 'Blood Pact',
       sp: 0,
-      description: 'Passive: When determining Damage, you may deal yourself Irreducible Damage up to your remaining HP to add the same amount of Physical Damage to your Attack.'
+      description:
+        'Passive: When determining Damage, you may deal yourself Irreducible Damage up to your remaining HP to add the same amount of Physical Damage to your Attack.'
     },
     {
       school: 'Cruor',
@@ -273,70 +277,80 @@ export class Data {
       level: 2,
       name: 'Soul Steal',
       sp: 2,
-      description: 'Passive: At the start of your turn, you and an ally within SOI may redistribute any Damage tokens you have between each other. Exhaust: Cast a Spell 6. Deal Magic Damage equal to half your current total Damage.'
+      description:
+        'Passive: At the start of your turn, you and an ally within SOI may redistribute any Damage tokens you have between each other. Exhaust: Cast a Spell 6. Deal Magic Damage equal to half your current total Damage.'
     },
     {
       school: 'Cruor',
       level: 2,
       name: 'Organic Liquefy',
       sp: 1,
-      description: 'Exhaust: Cast a Spell 6. Deal Magic Damage equal to the number rolled on one of the target\'s Conviction Dice. You may take 2 Irreducible Damage to deal additional Magic Damage equal to 2x your highest level Cruor Discipline.'
+      description:
+        'Exhaust: Cast a Spell 6. Deal Magic Damage equal to the number rolled on one of the target\'s Conviction Dice. You may take 2 Irreducible Damage to deal additional Magic Damage equal to 2x your highest level Cruor Discipline.'
     },
     {
       school: 'Cruor',
       level: 3,
       name: 'Life Tithe',
       sp: 0,
-      description: 'Exhaust: An opponent within your SOI is dealt Magic Damage equal to your highest level Cruor Discipline.'
+      description:
+        'Exhaust: An opponent within your SOI is dealt Magic Damage equal to your highest level Cruor Discipline.'
     },
     {
       school: 'Cruor',
       level: 3,
       name: 'In Secret',
       sp: 0,
-      description: 'Passive: Any time you gain a Vow token, another ally within SOI may also gain a Vow token. Any time an ally is Defeated within SOI, gain a Vow token.'
+      description:
+        'Passive: Any time you gain a Vow token, another ally within SOI may also gain a Vow token. Any time an ally is Defeated within SOI, gain a Vow token.'
     },
     {
       school: 'Cruor',
       level: 3,
       name: 'Life Grasp',
       sp: 1,
-      description: 'Exhaust: Cast a Spell 6 against up to 3 opponents within SOI. Deal Magic Damage equal to the difference rolled on their failed Conviction Check. After rolling to determine the force of this spell, you may deal yourself 2 Irreducible Damage to add + 2 to your roll.'
+      description:
+        'Exhaust: Cast a Spell 6 against up to 3 opponents within SOI. Deal Magic Damage equal to the difference rolled on their failed Conviction Check. After rolling to determine the force of this spell, you may deal yourself 2 Irreducible Damage to add + 2 to your roll.'
     },
     {
       school: 'Cruor',
       level: 3,
       name: 'Sinful Privilege',
       sp: 0,
-      description: 'Exhaust: When choosing the target of an attack or spell, you may target an opponent that is adjacent to an Ally with no penalty regardless of Line of Sight or Range.'
+      description:
+        'Exhaust: When choosing the target of an attack or spell, you may target an opponent that is adjacent to an Ally with no penalty regardless of Line of Sight or Range.'
     },
     {
       school: 'Cruor',
       level: 3,
       name: 'Soul Pact',
       sp: 0,
-      description: 'Passive: While you are Defeated, if the opponent that Defeated you is also Defeated, you may Flip this card to immediately place your figure on the board anywhere within an ally\'s SOI then Heal equal to half your Maximum HP'
+      description:
+        'Passive: While you are Defeated, if the opponent that Defeated you is also Defeated, you may Flip this card to immediately place your figure on the board anywhere within an ally\'s SOI then Heal equal to half your Maximum HP'
     },
     {
       school: 'Cruor',
       level: 4,
       name: 'He Watches',
       sp: 0,
-      description: 'Passive: 2SP: Make a move action. During this movement, you have Flight. Exhaust: Deal yourself 2 Irreducible Damage and gain a Vow token.'
+      description:
+        'Passive: 2SP: Make a move action. During this movement, you have Flight. Exhaust: Deal yourself 2 Irreducible Damage and gain a Vow token.'
     },
     {
       school: 'Cruor',
       level: 4,
       name: 'Ineptitude',
       sp: 0,
-      description: 'Exhaust: When an opponent within SOI rolls for any reason, that roll fails or misses by 1. You may only use this ability on a target that is lower on the initiative track than you.'
+      description:
+        'Exhaust: When an opponent within SOI rolls for any reason, that roll fails or misses by 1. You may only use this ability on a target that is lower on the initiative track than you.'
     },
     {
       school: 'Cruor',
       level: 4,
       name: 'Abbadon\'s Subtlety',
       sp: 1,
-      description: 'Exhaust: After resolving an attack or spell you made, cast a Spell 6. Deal Magic Damage equal to the amount of Damage the target was dealt by the previous attack or spell.'
+      description:
+        'Exhaust: After resolving an attack or spell you made, cast a Spell 6. Deal Magic Damage equal to the amount of Damage the target was dealt by the previous attack or spell.'
     },
 
     /////////////
@@ -345,156 +359,173 @@ export class Data {
     {
       school: 'Sanctus',
       level: 1,
-      name: '',
+      name: 'Nirvana\'s Mark',
       sp: 0,
-      description: ''
+      description: 'Passive: +2 Maximum Health. Status: Heal 1'
     },
     {
       school: 'Sanctus',
       level: 1,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Intervention',
+      sp: 1,
+      description:
+        'Exhaust: An ally within SOI gains an Intervention token. Reduce the SP cost of this Discipline by 1 if the target is an ally other than yourself.'
     },
     {
       school: 'Sanctus',
       level: 1,
-      name: '',
+      name: 'Guardian Angel',
       sp: 0,
-      description: ''
+      description: 'Once per Encounter: At any time, you Heal equal to half your Maximum Health.'
     },
     {
       school: 'Sanctus',
       level: 1,
-      name: '',
+      name: 'Aspect',
       sp: 0,
-      description: ''
+      description: 'Passive: +1 Movement. Your movement point costs are not increased by terrain or allies.'
     },
     {
       school: 'Sanctus',
       level: 1,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Magic Armor',
+      sp: 1,
+      description:
+        'Exhaust: An ally within SOI gains Barrier. Reduce the SP cost of this Discipline by 1 if the target is an ally other than yourself.'
     },
     {
       school: 'Sanctus',
       level: 1,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Courage Stifle',
+      sp: 1,
+      description:
+        'Cast a Spell 6. Deal Magic Damage equal to the Armor granted to you by a single item, including its upgrades. You may spend 1 SP to deal additional Magic Damage equal to your total armor value.'
     },
     {
       school: 'Sanctus',
       level: 1,
-      name: '',
+      name: 'Mend',
       sp: 0,
-      description: ''
+      description:
+        'Once per Encounter: Gain 2 Heal tokens. When these tokens are spent to Heal an ally other than yourself, gain +1 SP.'
     },
     {
       school: 'Sanctus',
       level: 2,
-      name: '',
+      name: 'Paradigm Assault',
       sp: 0,
-      description: ''
+      description: 'Exhaust: When you hit with an attack, an ally within SOI gains Haste, Barrier, or Courage.'
     },
     {
       school: 'Sanctus',
       level: 2,
-      name: '',
+      name: 'From the Grave',
       sp: 0,
-      description: ''
+      description:
+        'Once per Encounter: At any time, place a Defeated ally within SOI, then they Heal equal to half their Maximum HP.'
     },
     {
       school: 'Sanctus',
       level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Soul Clear',
+      sp: 2,
+      description:
+        'Exhaust: Remove one Effect from a figure within SOI. Reduce the SP cost of this Discipline by 1 if the target is an ally other than yourself.'
     },
     {
       school: 'Sanctus',
       level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Ascension',
+      sp: 2,
+      description:
+        'Passive: You may spend Intervention tokens as if they were SP. Increase the amount of Intervention tokens you can have by + 1. Exhaust: Make a Move Action.You have Flight for the duration of this movement.'
     },
     {
       school: 'Sanctus',
       level: 2,
-      name: '',
+      name: 'Proof of Divinity',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: An ally within SOI gains Courage. Passive: The first time each round an ally with Courage deals Damage, gain + 1 SP.'
     },
     {
       school: 'Sanctus',
       level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Fervor',
+      sp: 2,
+      description:
+        'Cast a Spell 6. Deal Magic Damage equal to your total armor value. Heal another figure within SOI for half of the amount of damage dealt. If the target of the Heal is not damaged, they gain Barrier instead.'
     },
     {
       school: 'Sanctus',
       level: 2,
-      name: '',
+      name: 'Salvation',
       sp: 0,
-      description: ''
+      description:
+        'Passive: At the start of an Encounter, pick an Effect and place its token on this card. For the duration of this Encounter, you are immune to this Effect.'
     },
     {
       school: 'Sanctus',
       level: 3,
-      name: '',
+      name: 'Greater Existence',
       sp: 0,
-      description: ''
+      description:
+        'Passive: When dodging, you may roll your Dodge twice and use either result. Exhaust: At any time, another ally within SOI may Dodge.'
     },
     {
       school: 'Sanctus',
       level: 3,
-      name: '',
+      name: 'Font of Renewal',
       sp: 0,
-      description: ''
+      description:
+        'When setting up an encounter, place the "Font of Renewal" token on normal spaces on any tile not adjacent to the starting location. Each adventurer, while adjacent to the Font, may do one of the following Encounter Actions once per encounter: * Heal half their current damage * Remove any of their Effects * Gain an Intervention Token'
     },
     {
       school: 'Sanctus',
       level: 3,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Wings Manifest',
+      sp: 1,
+      description:
+        'Exhaust: Move an ally within SOI up to 4 spaces. This ally has Flight for the duration of this movement.'
     },
     {
       school: 'Sanctus',
       level: 3,
-      name: '',
+      name: 'Invincibility',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: When another ally within SOI would be Defeated by an opponent, they are not Defeated. Instead, they Heal 2 Purple Dice and you are dealt Irreducible Damage equal to the amount healed.'
     },
     {
       school: 'Sanctus',
       level: 3,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Zealous Reprisal',
+      sp: 3,
+      description:
+        'Exhaust: Cast a Spell 6. Deal Magic Damage equal to 2x your total armor value. For every space away the target is, reduce this damage by 1. Then, Push 3 or Pull 3. Reduce the SP cost of this spell by 2 if you\'ve dealt that target damage this turn.'
     },
     {
       school: 'Sanctus',
       level: 4,
-      name: '',
+      name: 'Inspiration',
       sp: 0,
-      description: ''
+      description: 'Passive: When an ally within SOI ends their turn with 0 SP, they immediately gain +1 SP'
     },
     {
       school: 'Sanctus',
       level: 4,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Dimension Shift',
+      sp: 1,
+      description:
+        'Exhaust: Cast a Spell 6. Deal magic damage equal to the result of a roll made with one of your combat dice. If this does damage equal to or greater than half of the target\'s current HP, they are Defeated. Then place your figure on the space they occupied and gain Barrier and + 1 SP.'
     },
     {
       school: 'Sanctus',
       level: 4,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'The Only Truth',
+      sp: 4,
+      description:
+        'Passive: Increase the amount of Intervention tokens you can have by +1. Exhaust: All allies within SOI gain an Intervention token.'
     },
 
     /////////////
