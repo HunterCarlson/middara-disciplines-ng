@@ -187,156 +187,156 @@ export class Data {
     {
       school: 'Cruor',
       level: 1,
-      name: '',
+      name: 'Wretched Tether',
       sp: 0,
-      description: ''
+      description: 'Exhaust: Cast a Spell 6. The target gains the Tether Special Effect token.'
     },
     {
       school: 'Cruor',
       level: 1,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Crumbling Time',
+      sp: 1,
+      description: 'Exhaust: Cast a Spell 6. Your target is inflicted with Wilt'
     },
     {
       school: 'Cruor',
       level: 1,
-      name: '',
+      name: 'Imbued Fear',
       sp: 0,
-      description: ''
+      description: 'Exhaust: When making an attack, the attack gains +2 Physical Damage and "FU: Inflict Darkness.Force X + Difference Hit where X is 6 plus the level of your highest Cruor Discipline"'
     },
     {
       school: 'Cruor',
       level: 1,
-      name: '',
+      name: 'Gore Shot',
       sp: 0,
-      description: ''
+      description: 'Exhaust: Cast a Spell 6. Deal 2 Magic Damage. You may take 2 Irreducible Damage to deal additional Magic Damage equal to 2x your highest level Cruor Discipline.'
     },
     {
       school: 'Cruor',
       level: 1,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Oxygen Syphon',
+      sp: 2,
+      description: 'Cast a Spell 6 against all opponents within SOI. Inflict Disease.'
     },
     {
       school: 'Cruor',
       level: 1,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Corrosive Ideal',
+      sp: 1,
+      description: 'Exhaust: Cast a Spell 6. Your target is inflicted with Poison.'
     },
     {
       school: 'Cruor',
       level: 1,
-      name: '',
+      name: 'To Faust',
       sp: 0,
-      description: ''
+      description: 'Passive: Any time you are dealt 2 or more Damage from a single source, gain a Vow token.'
     },
     {
       school: 'Cruor',
       level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Bring the Shadows',
+      sp: 2,
+      description: 'Make a move action. During this movement, you do not provoke Break Attacks and you may move through opponents with no penalty. You may not increase this movement by spending additional SP. After moving, cast a Spell 6 against each figure moved through, ignoring SOI and Line of Sight. Deal your Spellcasting Die worth of Magic Damage and inflict Darkness.'
     },
     {
       school: 'Cruor',
       level: 2,
-      name: '',
+      name: 'Blood Pact',
       sp: 0,
-      description: ''
+      description: 'Passive: When determining Damage, you may deal yourself Irreducible Damage up to your remaining HP to add the same amount of Physical Damage to your Attack.'
     },
     {
       school: 'Cruor',
       level: 2,
-      name: '',
+      name: 'Blood Toll',
       sp: 0,
-      description: ''
+      description: 'Exhaust: Deal yourself 2 Irreducible Damage and gain +2 SP.'
     },
     {
       school: 'Cruor',
       level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Root the Mind',
+      sp: 1,
+      description: 'Exhaust: Cast a Spell 6. Your target is inflicted with Paralyze.'
     },
     {
       school: 'Cruor',
       level: 2,
-      name: '',
+      name: 'In Dreams',
       sp: 0,
-      description: ''
+      description: 'Exhaust: When you hit with an attack, gain a Vow token.'
     },
     {
       school: 'Cruor',
       level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Soul Steal',
+      sp: 2,
+      description: 'Passive: At the start of your turn, you and an ally within SOI may redistribute any Damage tokens you have between each other. Exhaust: Cast a Spell 6. Deal Magic Damage equal to half your current total Damage.'
     },
     {
       school: 'Cruor',
       level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Organic Liquefy',
+      sp: 1,
+      description: 'Exhaust: Cast a Spell 6. Deal Magic Damage equal to the number rolled on one of the target\'s Conviction Dice. You may take 2 Irreducible Damage to deal additional Magic Damage equal to 2x your highest level Cruor Discipline.'
     },
     {
       school: 'Cruor',
       level: 3,
-      name: '',
+      name: 'Life Tithe',
       sp: 0,
-      description: ''
+      description: 'Exhaust: An opponent within your SOI is dealt Magic Damage equal to your highest level Cruor Discipline.'
     },
     {
       school: 'Cruor',
       level: 3,
-      name: '',
+      name: 'In Secret',
       sp: 0,
-      description: ''
+      description: 'Passive: Any time you gain a Vow token, another ally within SOI may also gain a Vow token. Any time an ally is Defeated within SOI, gain a Vow token.'
     },
     {
       school: 'Cruor',
       level: 3,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Life Grasp',
+      sp: 1,
+      description: 'Exhaust: Cast a Spell 6 against up to 3 opponents within SOI. Deal Magic Damage equal to the difference rolled on their failed Conviction Check. After rolling to determine the force of this spell, you may deal yourself 2 Irreducible Damage to add + 2 to your roll.'
     },
     {
       school: 'Cruor',
       level: 3,
-      name: '',
+      name: 'Sinful Privilege',
       sp: 0,
-      description: ''
+      description: 'Exhaust: When choosing the target of an attack or spell, you may target an opponent that is adjacent to an Ally with no penalty regardless of Line of Sight or Range.'
     },
     {
       school: 'Cruor',
       level: 3,
-      name: '',
+      name: 'Soul Pact',
       sp: 0,
-      description: ''
+      description: 'Passive: While you are Defeated, if the opponent that Defeated you is also Defeated, you may Flip this card to immediately place your figure on the board anywhere within an ally\'s SOI then Heal equal to half your Maximum HP'
     },
     {
       school: 'Cruor',
       level: 4,
-      name: '',
+      name: 'He Watches',
       sp: 0,
-      description: ''
+      description: 'Passive: 2SP: Make a move action. During this movement, you have Flight. Exhaust: Deal yourself 2 Irreducible Damage and gain a Vow token.'
     },
     {
       school: 'Cruor',
       level: 4,
-      name: '',
+      name: 'Ineptitude',
       sp: 0,
-      description: ''
+      description: 'Exhaust: When an opponent within SOI rolls for any reason, that roll fails or misses by 1. You may only use this ability on a target that is lower on the initiative track than you.'
     },
     {
       school: 'Cruor',
       level: 4,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Abbadon\'s Subtlety',
+      sp: 1,
+      description: 'Exhaust: After resolving an attack or spell you made, cast a Spell 6. Deal Magic Damage equal to the amount of Damage the target was dealt by the previous attack or spell.'
     },
 
     /////////////
