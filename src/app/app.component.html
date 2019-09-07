@@ -1,20 +1,20 @@
 <button (click)="onClick()">Button!</button>
 
-<mat-accordion>
-  <mat-tab-group>
-    <mat-tab *ngFor="let dByschool of disciplinesBySchoolAndLevel | keyvalue" label={{dByschool.key}}>
-      <mat-expansion-panel *ngFor="let dBylevel of dByschool.value | keyvalue" >
+<mat-tab-group>
+  <mat-tab *ngFor="let dBySchool of disciplinesBySchoolAndLevel | keyvalue" label={{dBySchool.key}}>
+    <mat-accordion>
+      <mat-expansion-panel *ngFor="let dByLevel of dBySchool.value | keyvalue">
         <mat-expansion-panel-header>
           <mat-panel-title>
-            Level {{dBylevel.key}}
+            Level {{dByLevel.key}}
           </mat-panel-title>
         </mat-expansion-panel-header>
-        <div *ngFor="let d of dBylevel.value | keyvalue" style="padding-left: 32px">
+        <div *ngFor="let d of dByLevel.value | keyvalue" style="padding-left: 32px">
           <div style="font-weight: bold">{{d.value.name}}</div>
           <div>{{d.value.sp}} SP</div>
           <div>{{d.value.description}}</div>
         </div>
       </mat-expansion-panel>
-    </mat-tab>
-  </mat-tab-group>
-</mat-accordion>
+    </mat-accordion>
+  </mat-tab>
+</mat-tab-group>
