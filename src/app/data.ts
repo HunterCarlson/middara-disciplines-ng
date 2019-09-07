@@ -534,156 +534,171 @@ export class Data {
     {
       school: 'Martial',
       level: 1,
-      name: '',
+      name: 'Anticipated Attack',
       sp: 0,
-      description: ''
+      description: 'Passive: During your Dodge roll, gain "[Book][Book]: +1 to Dodge"'
     },
     {
       school: 'Martial',
       level: 1,
-      name: '',
+      name: 'Blade Works',
       sp: 0,
-      description: ''
+      description: 'Exhaust: If you have 2 1-handed melee weapons equipped, make a melee attack.'
     },
     {
       school: 'Martial',
       level: 1,
-      name: '',
+      name: 'Chains of Command',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: When making a melee attack, this attack gains Reach 2 and "[Burst] FU: Push or Pull the target up to 3 spaces, Force X + Difference Hit where X equals 6 plus the level of your highest Martial Discipline."'
     },
     {
       school: 'Martial',
       level: 1,
-      name: '',
+      name: 'Critical Defense',
       sp: 0,
-      description: ''
+      description: 'Passive: [Burst] FU: Gain a Dodge token. At the start of every encounter, gain 1 Dodge token.'
     },
     {
       school: 'Martial',
       level: 1,
-      name: '',
+      name: 'Hammer Helm',
       sp: 0,
-      description: ''
+      description:
+        'Passive: Your attacks gain +1 Physical Damage. Exhaust: When making a melee attack, if you have a 2-handed weapon equipped, you may re- roll any dice in your Combat Dice Pool.'
     },
     {
       school: 'Martial',
       level: 1,
-      name: '',
+      name: 'Fortuitous Homicide',
       sp: 0,
-      description: ''
+      description: 'Exhaust: Counter.'
     },
     {
       school: 'Martial',
       level: 1,
-      name: '',
+      name: 'Living Bulwark',
       sp: 0,
-      description: ''
+      description:
+        'Passive: As long as you have a shield equipped, you gain: * [Shield]: + 1 Physical Damage * [Burst]: +2 Physical Damage * Once per Encounter: At any time, gain Resistance: Physical Damage until the end of your next turn'
     },
     {
       school: 'Martial',
       level: 2,
-      name: '',
+      name: 'Blood Rage',
       sp: 0,
-      description: ''
+      description:
+        'Passive: While you have Damage equal to at least half your Maximum Health, gain an additional SP during your SP recovery phase.'
     },
     {
       school: 'Martial',
       level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Onslaught',
+      sp: 3,
+      description:
+        'Make a melee attack. This attack has "FU: Make a melee attack." This second attack has "FU: Make a melee attack"'
     },
     {
       school: 'Martial',
       level: 2,
-      name: '',
+      name: 'Gigas Grip',
       sp: 0,
-      description: ''
+      description:
+        'Passive: This Discipline does not work with Ranged Weapons, but does work with Melee/Ranged weapons. You may equip 2-handed Melee Weapons as if they were 1-handed but they still count as 2-handed Weapons. When Attacking, choose the Symbols, Upgrades, and Combat Dice on 1 of your equipped Weapons.'
     },
     {
       school: 'Martial',
       level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Mage Breaker',
+      sp: 1,
+      description:
+        'Exhaust: When determining Damage, roll the opponent\'s Casting die and add the number rolled as Physical Damage.'
     },
     {
       school: 'Martial',
       level: 2,
-      name: '',
+      name: 'Physically Perfected',
       sp: 0,
-      description: ''
+      description:
+        'Passive: Gain +X Maximum Health where X is equal to your highest level Martial Discipline. Exhaust: [Burst] FU: Gain + 1 SP'
     },
     {
       school: 'Martial',
       level: 2,
-      name: '',
+      name: 'Promise',
       sp: 0,
-      description: ''
+      description:
+        'Passive: FU: If your target has 3 or fewer HP remaining, they are Defeated. Exhaust: When making an attack, gain + X to your attack roll where X equals the number of times you\'ve attacked that target this turn.'
     },
     {
       school: 'Martial',
       level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Whirlwind',
+      sp: 2,
+      description:
+        'Make a separate melee attack against each figure currently adjacent to you. If your weapon has Reach, you may spend 1 additional SP to attack each figure currently within the Reach of your weapon instead.'
     },
     {
       school: 'Martial',
       level: 3,
-      name: '',
+      name: 'Morbid Envy',
       sp: 0,
-      description: ''
+      description: 'Exhaust: When making an attack, gain "[Burst] Add a Purple Die of Physical Damage"'
     },
     {
       school: 'Martial',
       level: 3,
-      name: '',
+      name: 'Bring the Wrath',
       sp: 0,
-      description: ''
+      description:
+        'Passive: When you defeat an opponent, you may immediately end the current Action. Then, Move up to 3 spaces and make a melee or ranged attack.'
     },
     {
       school: 'Martial',
       level: 3,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Nemesis Enforcement',
+      sp: 1,
+      description: 'Exhaust: An opponent within SOI gains the Nemesis Special Effect token.'
     },
     {
       school: 'Martial',
       level: 3,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Dead End',
+      sp: 1,
+      description:
+        'Exhaust: Before making a melee attack, if you have a 2-handed weapon equipped, you gain +X [Shield] where X equals your highest level Martial Discipline'
     },
     {
       school: 'Martial',
       level: 3,
-      name: '',
+      name: 'Relentless Feign',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: When an attack targeting you misses, end the current Action. Then, you may spend 1 SP to make up to 2 melee or ranged attacks against your attacker. When you spend this initial SP, you may also spend additional SP to make additional melee or ranged attacks equal to the amount of additional SP spent.'
     },
     {
       school: 'Martial',
       level: 4,
-      name: '',
+      name: 'Challenge Supreme',
       sp: 0,
-      description: ''
+      description:
+        'Passive: Before making an attack, add +1 to the attack roll for each additional SP you spend. Exhaust: During an attack, add + 1 to the attack roll.'
     },
     {
       school: 'Martial',
       level: 4,
-      name: '',
+      name: 'Master of the Vessel',
       sp: 0,
-      description: ''
+      description: 'Exhaust: At any time, gain +1 [Burst] during any of your rolls.'
     },
     {
       school: 'Martial',
       level: 4,
-      name: '',
+      name: 'Will to Live',
       sp: 0,
-      description: ''
+      description:
+        'Passive: +4 Maximum Health. When you receive Damage equal to your remaining HP, instead of being Defeated, remain in play and gain Immunity: Damage. At the end of your next turn, you are Defeated.'
     },
 
     ////////////////
