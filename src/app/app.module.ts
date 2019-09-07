@@ -9,8 +9,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatButtonModule} from "@angular/material/button";
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatTabsModule} from "@angular/material/tabs"
-
-
+import {MatExpansionModule} from "@angular/material/expansion"
 
 
 @NgModule({
@@ -23,7 +22,8 @@ import {MatTabsModule} from "@angular/material/tabs"
     BrowserAnimationsModule,
     MatButtonModule,
     MatCheckboxModule,
-    MatTabsModule
+    MatTabsModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
