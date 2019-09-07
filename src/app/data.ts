@@ -3,7 +3,10 @@ import { Discipline } from './discipline';
 export class Data {
 
   static disciplines: Discipline[] = [
+
+    ////////////////
     // Assemblage //
+    ////////////////
     {
       school: 'Assemblage',
       level: 1,
@@ -178,42 +181,634 @@ export class Data {
         'Passive: When you use the Discipline "Summoning", gain 1 additional Summon token. Whenever a Loyal Esper you summoned spends SP on any Action or Ability, they may spend SP that you have available instead of their own. If either you or your Loyal Espers ever gain or lose a positive effect, the other also gains or loses that effect.'
     },
 
+    ///////////
     // Cruor //
+    ///////////
+    {
+      school: 'Cruor',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Cruor',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
+    },
 
+    /////////////
     // Sanctus //
+    /////////////
+    {
+      school: 'Sanctus',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Sanctus',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
+    },
 
+    /////////////
     // Martial //
+    /////////////
     {
       school: 'Martial',
       level: 1,
-      name: 'Blade Works',
+      name: '',
       sp: 0,
-      description: 'Exhaust: If you have 2 1-handed melee weapons equipped, make a melee attack.'
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Martial',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
     },
 
+    ////////////////
     // Subterfuge //
+    ////////////////
     {
       school: 'Subterfuge',
       level: 1,
-      name: 'Follow Through',
+      name: '',
       sp: 0,
-      description:
-        'Passive: When determining Damage of your attack, you may spend SP. For each SP spent this way, add +2 Physical Damage. If you have two Light weapons equipped, while Flanking your attacks ignore Armor.'
+      description: ''
     },
     {
       school: 'Subterfuge',
       level: 1,
-      name: 'Quick Blow',
-      sp: 1,
-      description:
-        'During the Follow Up step of your Attack other than your Attack made with Quick Blow, make another melee or ranged attack. You may choose a new target for this Attack.'
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    }, {
+      school: 'Subterfuge',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 1,
+      name: '',
+      sp: 0,
+      description: ''
     },
     {
       school: 'Subterfuge',
       level: 2,
-      name: 'False Idol',
+      name: '',
       sp: 0,
-      description: 'Exhaust: Make a melee attack.'
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    }, {
+      school: 'Subterfuge',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 2,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 3,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
+    },
+    {
+      school: 'Subterfuge',
+      level: 4,
+      name: '',
+      sp: 0,
+      description: ''
     }
   ];
 }
