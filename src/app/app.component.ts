@@ -54,6 +54,6 @@ export class AppComponent {
       .value();
 
   onClick(): void {
-    console.log(JSON.stringify(this.disciplinesBySchoolAndLevel));
+    // console.log(JSON.stringify(this.disciplinesBySchoolAndLevel));
   }
 }

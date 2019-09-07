@@ -1,7 +1,7 @@
 <button (click)="onClick()">Button!</button>
 
-<div *ngFor="let dByschool of disciplinesBySchoolAndLevel | keyvalue">
-    <h1>{{dByschool.key}}</h1>
+<mat-tab-group>
+  <mat-tab *ngFor="let dByschool of disciplinesBySchoolAndLevel | keyvalue" label={{dByschool.key}}>
     <div *ngFor="let dBylevel of dByschool.value | keyvalue" style="padding-left: 16px">
       <h2>{{dBylevel.key}}</h2>
       <div *ngFor="let d of dBylevel.value | keyvalue" style="padding-left: 32px">
@@ -11,4 +11,6 @@
         <br>
       </div>
     </div>
-</div>
+  </mat-tab>
+</mat-tab-group>
+
