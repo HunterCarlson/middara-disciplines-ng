@@ -707,154 +707,170 @@ export class Data {
     {
       school: 'Subterfuge',
       level: 1,
-      name: '',
+      name: 'Trick Shot',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: If you have two 1-handed ranged weapons equipped, make a ranged attack. Before rolling, you may choose to gain - 1 to the Attack Roll and + 3 Physical Damage.'
     },
     {
       school: 'Subterfuge',
       level: 1,
-      name: '',
+      name: 'Follow Through',
       sp: 0,
-      description: ''
+      description:
+        'Passive: When determining Damage of your attack, you may spend SP. For each SP spent this way, add +2 Physical Damage. If you have two Light weapons equipped, while Flanking your attacks ignore Armor.'
     },
     {
       school: 'Subterfuge',
       level: 1,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Kill the Messenger',
+      sp: 1,
+      description:
+        'Exhaust: If you have a 2-handed ranged weapon equipped when making an Attack, if you roll the lowest result on a Combat Die, you may change a single die to the highest result instead.'
     },
     {
       school: 'Subterfuge',
       level: 1,
-      name: '',
+      name: 'Like the Shadows',
       sp: 0,
-      description: ''
+      description: 'Exhaust: Move up to 2 spaces. This movement does not provoke Break Attacks.'
     }, {
       school: 'Subterfuge',
       level: 1,
-      name: '',
+      name: 'Precise Strike',
       sp: 0,
-      description: ''
+      description: 'Passive: Your ranged attacks gain: * +1 Physical Damage * Exhaust: Empower'
     },
     {
       school: 'Subterfuge',
       level: 1,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Quick Blow',
+      sp: 1,
+      description:
+        'During the Follow Up step of your Attack other than your Attack made with Quick Blow, make another melee or ranged attack. You may choose a new target for this Attack.'
     },
     {
       school: 'Subterfuge',
       level: 1,
-      name: '',
+      name: 'Speed Injustice',
       sp: 0,
-      description: ''
+      description: 'Exhaust: Dodge. You may re-roll this Dodge roll.'
     },
     {
       school: 'Subterfuge',
       level: 2,
-      name: '',
+      name: 'Blade Distortion',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: [Burst] FU: Deal a Purple Die of Physical Damage to your target and all opponents adjacent to the target.'
     },
     {
       school: 'Subterfuge',
       level: 2,
-      name: '',
+      name: 'False Idol',
       sp: 0,
-      description: ''
-    }, {
-      school: 'Subterfuge',
-      level: 2,
-      name: '',
-      sp: 0,
-      description: ''
+      description: 'Exhaust: Make a melee attack.'
     },
     {
       school: 'Subterfuge',
       level: 2,
-      name: '',
+      name: 'Shame of the Otaku',
       sp: 0,
-      description: ''
+      description:
+        'Once per Encounter: When you are the target of an Attack, after determining if the Attack hit but before determining damage, that Attack misses. Then, Warp to any unoccupied space within SOI and Counter.'
     },
     {
       school: 'Subterfuge',
       level: 2,
-      name: '',
+      name: 'Concoction Shot',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: FU: Inflict a single random Negative Effect that your target doesn\'t already have, Force X + Difference Hit where X is equal to 6 plus the level of your highest Subterfuge Discipline.'
     },
     {
       school: 'Subterfuge',
       level: 2,
-      name: '',
+      name: 'Friend over Foe',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: Dodge. Exhaust: Another ally may make a melee or ranged attack against an opponent you attacked this turn.'
     },
     {
       school: 'Subterfuge',
       level: 2,
-      name: '',
+      name: 'Down the Masses',
+      sp: 2,
+      description: 'Exhaust: Make up to two ranged attacks against different targets.'
+    },
+    {
+      school: 'Subterfuge',
+      level: 2,
+      name: 'C.Q.C',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: When making an attack with two 1-handed ranged weapons, the attack gains: * +4 Physical Damage if the attack is made at range 1 * +3 Physical Damage if the attack is made at range 2 * +2 Physical Damage if the attack is made at range 3 * +1 Physical Damage if the attack is made at range 4 The attack also gains "FU: Move up to 2 spaces.This movement does not provoke Break Attacks"'
     },
     {
       school: 'Subterfuge',
       level: 3,
-      name: '',
+      name: 'Murder Circus',
       sp: 0,
-      description: ''
+      description:
+        'Once per Encounter: Throw X Purple Dice. You may assign these dice to up to X targets. X is the level of your highest Subterfuge Discipline. All dice assigned to a single target this way count as a single source of Damage and are rolled together.'
     },
     {
       school: 'Subterfuge',
       level: 3,
-      name: '',
+      name: 'Profound Intuition',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: When you Dodge and the Attack misses, end all current Actions. Then, move up to 3 spaces and make a melee or ranged attack. This movement does not provoke Break Attacks.'
     },
     {
       school: 'Subterfuge',
       level: 3,
-      name: '',
+      name: 'Rapid Reload',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: When making an Attack with two 1-handed ranged weapons, the attack gains "FU: Add 1 Energy token to this card (Limit 2)" Energy tokens on this card may be spent as though they were SP but they do not count against your SP maximum.'
     },
     {
       school: 'Subterfuge',
       level: 3,
-      name: '',
+      name: 'Jack of all Blades',
       sp: 0,
-      description: ''
+      description:
+        'Passive: 1-handed melee weapons you have equipped gain the Light tag. You tread Obstructing terrain and edges of Tiles as an ally for the purposes of Flanking.'
     },
     {
       school: 'Subterfuge',
       level: 3,
-      name: '',
+      name: 'Ninjutsu',
       sp: 0,
-      description: ''
+      description: 'Passive: +1 Defense. Exhaust: Dodge'
     },
     {
       school: 'Subterfuge',
       level: 4,
-      name: '',
+      name: 'Fist of Polaris',
       sp: 0,
-      description: ''
+      description:
+        'Exhaust: If an opponent is adjacent to you, move to any space adjacent to that opponent. This movement does not provoke Break Attacks. Then make a melee attack against an opponent you have not attacked this turn. Passive: You may pay 1 SP to un- exhaust this card.'
     },
     {
       school: 'Subterfuge',
       level: 4,
-      name: '',
+      name: 'Brutal Slaughter',
       sp: 0,
-      description: ''
+      description: 'Exhaust: When making the third Attack of a turn, gain +6 Physical Damage.'
     },
     {
       school: 'Subterfuge',
       level: 4,
-      name: '',
-      sp: 0,
-      description: ''
+      name: 'Blot Out the Sun',
+      sp: 4,
+      description:
+        'Make a ranged attack. After resolving this attack, make a separate ranged attack against each figure within 2 spaces of the target of the initial attack, ignoring Range and Line of Sight.'
     }
   ];
 }
