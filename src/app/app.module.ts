@@ -10,11 +10,15 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatTabsModule } from '@angular/material/tabs'
 import { MatExpansionModule } from '@angular/material/expansion'
+import { MatCardModule } from '@angular/material/card'
+
+import { RangePipe } from './pipe-range'
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RangePipe
   ],
   imports: [
     BrowserModule,
@@ -23,7 +27,8 @@ import { MatExpansionModule } from '@angular/material/expansion'
     MatButtonModule,
     MatCheckboxModule,
     MatTabsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

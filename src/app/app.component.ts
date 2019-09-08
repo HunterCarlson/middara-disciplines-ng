@@ -5,7 +5,7 @@ import { Data } from './data'
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'middara-disciplines-ng';
@@ -19,7 +19,7 @@ export class AppComponent {
     )
     .value();
 
-  onClick(): void {
-    // console.log(JSON.stringify(this.disciplinesBySchoolAndLevel));
-  }
+  //onClick(): void {
+  //   console.log(JSON.stringify(this.disciplinesBySchoolAndLevel));
+  //}
 }

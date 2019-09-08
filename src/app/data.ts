@@ -124,7 +124,7 @@ export class Data {
       name: 'Exalted Summoning',
       sp: 0,
       description:
-        'Exhaust: Spend 1 Summon token to chose an Exalted Esper and use its Ability within SOI. Passive: At the s tart of each Encounter, gain 1 Summon token.'
+        'Exhaust: Spend 1 Summon token to chose an Exalted Esper and use its Ability within SOI. Passive: At the start of each Encounter, gain 1 Summon token.'
     },
     {
       school: 'Assemblage',
@@ -154,7 +154,7 @@ export class Data {
       name: 'Friends with Benefits',
       sp: 0,
       description:
-        'Passive: When you use the Discipline ""Summoning"", gain 1 additional Summon token. Loyal Espers you summon gain + X Health where X is equal to your highest level Assemblage discipline.'
+        'Passive: When you use the Discipline "Summoning", gain 1 additional Summon token. Loyal Espers you summon gain + X Health where X is equal to your highest level Assemblage discipline.'
     },
     {
       school: 'Assemblage',
