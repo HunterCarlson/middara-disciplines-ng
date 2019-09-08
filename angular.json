@@ -122,8 +122,15 @@
               "devServerTarget": "middara-disciplines-ng:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://huntercarlson.github.io/middara-disciplines-ng/"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "middara-disciplines-ng"
 }
