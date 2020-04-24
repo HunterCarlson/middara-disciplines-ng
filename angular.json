@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "middara-disciplines-ng"
+    }
+  },
+  "defaultProject": "middara-disciplines-ng",
+  "cli": {
+    "analytics": false
+  }
 }
