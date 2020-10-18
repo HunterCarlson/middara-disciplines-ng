@@ -1,11 +1,3 @@
 {
-    "attr-lowercase": [
-        "*ngIf",
-        "ngIf",
-        "*ngFor",
-        "ngFor",
-        "ngSwitch",
-        "ngModel"
-    ],
-    "doctype-first": false
+
 }
